@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+@font-face {
+  font-family: "LarishNeue2";
+  src: url("../font/Larish\ Neue\ Semibold.woff2");
+  font-family: "LarishNeue";
+  src: url("../font/LarishNeueSemibold.woff");
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* general effect */
+h1,
+h2,
+h4 {
+  font-family: "LarishNeue2";
+}
+h5 {
+  font-family: "LarishNeue";
+}
+h6,
+p {
+  font-family: "Work Sans", sans-serif;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  background-color:#fff;
+}
+img{
+    width:50%;
+    height:30%;
+}
+/* Farbe: #fff / #000 */
+
+/* smartphone */
+@media screen and (max-width: 600px) {
+    body {
+      /* background-color: mediumseagreen; */
+    }
+
+/* tablet */
+@media screen and (max-width: 768px) {
+    body {
+      /* background-color: orange; */
+    }    
