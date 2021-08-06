@@ -118,7 +118,7 @@ header div:nth-child(3){
 
 .action {
     position:relative;
-    margin-bottom:23%;
+    margin-bottom:20%;
 }
 .action #upper img{
     position:absolute;
@@ -169,7 +169,8 @@ header div:nth-child(3){
 .action #last img{
     position: absolute;
     width:30%;
-    right:15em;
+    right:13em;
+    z-index: 999;
 }
 /*** bear ***/
 .bear, .poppy{
@@ -219,6 +220,7 @@ header div:nth-child(3){
     position:absolute;
     top:8em;
     right:10em;
+    z-index: 999;
 }
 #circle{
     position:absolute;
@@ -233,23 +235,49 @@ header div:nth-child(3){
 }
 .poppy #p_bear img:first-child{
     position:absolute;
-   bottom:12%;
-    left:5em;
+    bottom:12%;
+    left:8em;
+    z-index: 999;
   }
 .poppy #p_bear img:last-child{
+  width:55%;
   position:absolute;
   right:10%;
   bottom:5em;  
 }
 
-
 /*** footer ***/
-
-footer img{
-    width:10%;
-    height:5vh
+footer{
+    padding:15% 10%; 
 }
-
+footer img{
+    width:5%;
+    height:1vh
+}
+#banner{
+background-color: #fff;
+font-size:3em;
+display:inline-block;
+  -webkit-text-stroke: 1px #000;
+}
+#banner span{
+    color: #000;
+}
+footer article{
+   display:flex;
+   justify-content:space-between;
+}
+footer article div:nth-child(1){
+    width:50%;
+}
+footer article div:nth-child(1) h4{
+    line-height:1.3em;
+}
+footer article:nth-of-type(2){
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
 
 
 /* Farbe: #fff / #000 */
