@@ -231,19 +231,17 @@ header div:nth-child(3){
     padding-top:23%;
     margin-bottom:80%;
 }
+.poppy #p_bear img:first-child{
+    position:absolute;
+   bottom:12%;
+    left:5em;
+  }
 .poppy #p_bear img:last-child{
   position:absolute;
   right:10%;
   bottom:5em;  
 }
-.poppy #p_bear img:first-child{
-  position:absolute;
- bottom:17%;
-  left:5em;
 
-
-
-}
 
 /*** footer ***/
 
